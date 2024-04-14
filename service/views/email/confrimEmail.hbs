@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Confirmation</title>
+  </head>
+  <body>
+    <div>
+
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <div>
+          <h1>Email Confirmation</h1>
+          <p>
+            Hi Pet! Welcome to the wonderful world of Mazito! You are almost
+            there to make new friends and use your voice in our community for
+            all! Simply click on the yellow Mazito icon to verify your email
+            address!
+          </p>
+          <p>Let's Mazito it!</p>
+          <a
+            href="{{token}}"
+            class="verifyEmail"
+            style="
+              {{!-- font-size: 16px; --}}
+              {{!-- background-color: #eb2505; --}}
+              {{!-- color: white; --}}
+              {{!-- border: none; --}}
+              {{!-- padding: 15px; --}}
+            "
+          >
+            {{!-- Verify Email Address --}}
+             <img
+          src="https://petznpetz.s3.us-east-2.amazonaws.com/email/Mazito_signature_Oct.jpeg"
+          alt="Mazito Signature"
+          style="height: 100px;margin-top: 20px;object-fit: cover"
+        />
+           </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

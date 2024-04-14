@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mazito
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: mazito
+  template:
+    metadata:
+      labels:
+        app: mazito
+    spec:
+      containers:
+        - name: mazito
+          image: usmanmaqbool636/mazito
+          imagePullPolicy: "Always"

@@ -1,0 +1,45 @@
+Mazito Meeting 21-sep-2021
+ New Pet
+    1. add type in pet registration.
+       etc Birds have type like parrot and pigeon
+      [work]
+
+         Admin
+         A, - Add Field haveType in [species model].
+         B, - Create Type (Species Type)  Model that also have species field [new model].
+         C, Add Type according to Species,
+         D, Add Type Field in breed create breed [note all species don't have type only some species have type like parrot, small animals]
+         E, Do Also in Edit Species, Breed [after completion i can do this]
+         F, addField hasType if speciesType have type.
+
+         Applications
+         A, In species responce add field haveType(Boolean)
+         B, If species haveType is true then user request for Type according to the species, and request for breed according to the type.
+         
+    2. TODO when user create pet and then automatically add friend of mazito
+        [default friend of mazito] [after all work and Discuss with Afzal]
+        [work]
+         A, If user create pet then add mazito to his friend list.
+         B, we also need to create mazito pet controlled either by the panel and from the Application.
+            also Discuss with Mr. @Afzal 
+    
+
+ post create
+    1. recommended ,public,private [multiple selecte]
+      [work]
+         A, Post either be [public and recommended,public only, private only, private and recommended],
+    2. upload multiple images in create post
+         suggestion [used file name for checking the mimetype of a file ]
+            mime-types : extension for checking mimetype
+            also check the all mimetype of video and images
+            so that i filtered the video and and images separately
+            [work]
+            A, Changes single photo/video upload in post to multiple photos/videos.
+            B, also update the responce of myposts , journey and all other relevant to post, responce.
+
+ Notification Issues
+   Schedule notifications is working
+      some time schedule notifications are not working according to @Husnain
+      [I Told Flutter-dev (husnain asghar) that fcm token is not registered]
+
+ Create List of All Notifications Trigger Point

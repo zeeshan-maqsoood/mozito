@@ -1,0 +1,29 @@
+if we want to delete user from database then we need to also delete there relevant data in following collections
+User
+1.AccountRecovery (userId).
+2.Blog (comments,helpful,unhelpful,viewsCount).
+3.Emergencyalert (addedBy,owner).
+4.Feedback (user)
+5.Lostpet (owner,addedBy).
+6.LostpetOther (addedBy).
+7.Meal (owner).
+8.Media (owner).
+9.Medication (owner).
+10.Notification (from,to).
+11.Panic(createdBy).
+12.Pet (owner).
+13.Post (owner).
+14.Report (from,to)
+15.Schedule (owner)
+16.User(_id)
+
+Pet
+1.Comments (author,likes).
+2.Friends (from,to).
+3.Media (pet).
+4.Notification (fromPet,toPet)
+5.Pairing (to,from).
+6.Panic (petId).
+7.Pet(petBlock)
+8.Post (pet,likes,shares,views)
+9.Schedule (pet).

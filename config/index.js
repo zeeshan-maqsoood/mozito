@@ -1,0 +1,25 @@
+module.exports={
+    db:{
+        PROD:process.env.PROD_MONGODB,
+        DEV:process.env.DEV_MONGODB
+    },
+    MAIL:{
+        EMAIL:process.env.EMAIL,
+        PASSWORD:process.env.PASSWORD
+    },
+    AWS:{
+        AWSACCESSKEY:process.env.AWSACCESSKEY,
+        AWSSECRETKEY:process.env.AWSSECRETKEY,
+        AWSBUCKET:process.env.AWSBUCKET
+    },
+    GOOGLE:{
+        GOOGLE_WEP_API_KEY:process.env.GOOGLE_WEP_API_KEY  
+    },
+    jwt:{
+        USER:process.env.JWT_SECRET_USER,
+        ADMIN:process.env.JWT_SECRET_ADMIN
+    },
+    REDIS:{
+        PORT:6379
+    }
+}
